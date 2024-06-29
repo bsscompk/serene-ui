@@ -1,0 +1,30 @@
+{
+  "name": "@bsscompk/serene-ui",
+  "version": "0.0.0",
+  "description": "An elegant and intuitive UI toolkit emphasizing human-centric design principles.",
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@bsscompk"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.18"
+  },
+  "peerDependencies": {
+    "solid-js": "^1.8.18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.4",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.2",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}
